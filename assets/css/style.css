@@ -1,0 +1,24 @@
+.nav-top-link {
+    transition: all .25s ease-in;
+    /* transition: color .2s ease-in !important; */
+    border-radius: .2rem;
+}
+.nav-top-link:hover {
+    color: #912028 !important;
+}
+.top-active {
+    background-color: #912028 !important;
+    color: #f8f9fa !important;
+}
+nav.navbar {
+    border-bottom: .1rem solid #dee2e6 !important;
+}
+.nav-bottom-link {
+    transition: all .2s ease-in;
+}
+.navbar-collapse.show {
+    margin: 1rem 0 1rem 0;
+}
+.navbar-collapse {
+    transition: all .5s ease;
+}
